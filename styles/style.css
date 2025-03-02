@@ -26,8 +26,8 @@ body {
 
 .header__logo-image {
     display: block;
-    width: 129.11px;
-    height: 104.65px;
+    width: 148px;
+    height: 105px;
 }
 
 .header__menu {
@@ -36,8 +36,9 @@ body {
 
 .header__links-list {
     display: flex;
+    padding-left: 4px;
     justify-content: space-evenly;
-    gap: 26px;
+    gap: 28px;
     list-style: circle;
 }
 
@@ -63,6 +64,7 @@ address {
     font-size: 18px;
     max-width: 240px;
     justify-self: end;
+    padding-right: 40px;
 }
 
 .content-section {
@@ -104,12 +106,14 @@ h2 {
 .cover__title {
     padding-top: 165px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 20px;
     font-weight: 700;
     font-size: 100px;
     line-height: 115px;
     letter-spacing: 27px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .title-text {
@@ -139,6 +143,7 @@ h2 {
 }
 
 .cover__description-text {
+    font-size: 22px;
     word-spacing: 18px;
 }
 
@@ -213,12 +218,15 @@ h2 {
 
 .card__title {
     text-decoration: underline;
+    font-size: 22px;
 }
 
 .card__text {
     margin-left: auto;
     bottom: 0;
     width: 100%;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .lots__look-more-link {
